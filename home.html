@@ -2,16 +2,34 @@
 <html>
 <head>   <!--모든 Html 파일은 본문을 설명하는 head 부분과 본문인 body 부분으로 나눈다.-->
 
-<title>Sehyeong log - html</title>
-<meta charset="utf-8"> <!-- 영어와 숫자를 같이 쓸 수 있도록 해주는 태그이다. 브라우저가 UTF-8 타입으로 읽어와라 라는 의미이다.-->
+    <title>Sehyeong log - html</title>
+    <meta charset="utf-8"> <!-- 영어와 숫자를 같이 쓸 수 있도록 해주는 태그이다. 브라우저가 UTF-8 타입으로 읽어와라 라는 의미이다.-->
+    <style>
+        a{
+            color:black;
+            text-decoration: none;
+        }
+        #active {
+            color:blue;
+        }
+        .saw {
+            color:gray;
+        }
+        h1 {
+            font-size:80px;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <h1><a href="home.html">WEB</a></h1>
 <ol>
-    <li><a href="Intro.html">Intro. </a></li>
-    <li><a href="Project.html">Project</a></li>
+    <li><a href="Intro.html" class="saw">Intro. </a></li>
+    <li><a href="Project.html" class="saw" id="active">Project</a></li>
     <li><a href="Insight.html">Insight</a></li>
+    <li><a href="Study.html">Study</a></li>
+    <li><a href="log.html">Log</a></li>
 </ol>
 
 <p><h3>Name. Sehyeong Park</h3>
